@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    border: 2px solid grey;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.box > div {
+    margin: 50px;
+    padding: 50px;
+    background: grey;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.drag-over {
+    border: dashed 3px red;
+}
